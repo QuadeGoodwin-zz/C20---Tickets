@@ -1,0 +1,10 @@
+function greenTicket(a, b, c) {
+  var score = 0;
+  if (a == b && b == c){
+    return(20);
+  }
+  if (a == b || a == c || b == c){
+    return(10);
+  }
+  return(0);
+}
